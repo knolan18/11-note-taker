@@ -10,9 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "clog": "^0.1.6",
     "express": "^4.17.2",
-    "middleware": "^1.0.0",
     "uuid": "^8.3.2"
   }
 }

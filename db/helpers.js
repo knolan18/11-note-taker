@@ -1,6 +1,6 @@
 const fs = require('fs');
 const util = require('util');
-const {v4: uuidv4 } = require('uuid')
+const { uuidv4 } = require('uuid')
 
 // Promise version of fs.readFile
 const readFromFile = util.promisify(fs.readFile);
@@ -67,7 +67,3 @@ exports.deleteNote = function(id) {
   .then((filteredNotes)=> write(filteredNotes));
 }
 
-
-
-
-// module.exports = { readFromFile, writeToFile, readAndAppend };
